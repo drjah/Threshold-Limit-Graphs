@@ -7,7 +7,7 @@ Instructions for Generating Threshold Limit Graphs
 
 These are instructions for generating Threshold Limit graphs (TLgraphs), using the python code: genoutcomepredict.py, with graph specifications obtained from an excel file “input_parameters.xlsx”. The threshold limit graphical approach is described in a paper by Hipp et al. \[1\] Use of a specifications file requires careful, a priori thought about the important outcomes and the variables that might help predict the outcomes, along with the inclusion and exclusion criteria that need to be used when processing the excel file with the raw data.
 
-Note: The program can be run either directly from python code or from an executable that can be created from the python code.
+Note: The program can be run either directly from python code or from an executable that can be created from the python code - e.g. using pyinstaller.
 
 If running from python, the dependencies must first be installed.
 
