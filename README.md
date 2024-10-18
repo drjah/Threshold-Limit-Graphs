@@ -3,6 +3,8 @@ Python code to create threshold limit graphs
 This code can produce graphs similar to those described in a free paper on Cureus:
 https://www.cureus.com/articles/7823-threshold-limit-graphical-approach-to-understanding-outcome-predictive-metrics-data-from-the-osteoarthritis-initiative#!/
 
+Apologies for the crude python code - I have no formal training in python.
+
 Instructions for Generating Threshold Limit Graphs
 
 These are instructions for generating Threshold Limit graphs (TLgraphs), using the python code: genoutcomepredict.py, with graph specifications obtained from an excel file “input_parameters.xlsx”. The threshold limit graphical approach is described in a paper by Hipp et al. \[1\] Use of a specifications file requires careful, a priori thought about the important outcomes and the variables that might help predict the outcomes, along with the inclusion and exclusion criteria that need to be used when processing the excel file with the raw data.
@@ -48,7 +50,7 @@ If running from python, the dependencies must first be installed.
 
 Python genoutcomepredict c:\\rootfolder\\subfolder\\workingdirectory
 
-1. Once the program is running, it will produce the requested plots one by one. Clicking on the X at the upper right of the window will close that plot and create the next plot. Descriptive error messages will be generated when needed. The plots will be saved in the folder specified.
+1. Once the program is running, it will produce the requested plots one by one. Descriptive error messages will be generated when needed. The plots will be saved in the folder specified.
 2. To quickly identify potentially predictive metrics, you can view the plots as thumbnails using Windows Explorer. Look for metrics where either the blue line or the red line shows a clear upward or downward trend. If either line (blue or red) displays a consistent trend that passes outside the shaded confidence interval, this indicates that the metric may effectively predict the variable plotted on the Y-axis. Recall:
 
 - Blue Line: Represents data points calculated only when values are above the threshold.
